@@ -36,3 +36,6 @@ jobs:
       - name: "show message event github actions"
         run: |
           echo "github.event_name: ${{github.event_name}}"
+          echo "github actor: ${{github.actor}}"
+          echo "github actor: ${{github.repository}}"
+          echo "github actor: ${{github.workspace}}"
